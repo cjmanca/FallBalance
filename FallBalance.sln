@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6052F57F-DDC8-4EB0-BD99-298B1F8B9EEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FallBalance", "src\FallBalance\FallBalance.csproj", "{57D8CD54-EB6A-4C9B-A3C8-1017E64D3330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57D8CD54-EB6A-4C9B-A3C8-1017E64D3330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D8CD54-EB6A-4C9B-A3C8-1017E64D3330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D8CD54-EB6A-4C9B-A3C8-1017E64D3330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D8CD54-EB6A-4C9B-A3C8-1017E64D3330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57D8CD54-EB6A-4C9B-A3C8-1017E64D3330} = {6052F57F-DDC8-4EB0-BD99-298B1F8B9EEE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92F6D475-68F0-44D6-A1AF-A28F5948E381}
+	EndGlobalSection
+EndGlobal
