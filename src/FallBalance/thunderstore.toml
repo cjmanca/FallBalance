@@ -6,7 +6,7 @@ repository = "https://thunderstore.io"
 
 [package]
 namespace = "AdvocatusDiaboli"
-name = "Fall Balance"
+name = "FallBalance"
 description = "Makes fall/drop damage the same as jump damage, since it's ridiculous that these were ever different."
 websiteUrl = "https://github.com/cjmanca/FallBalance" # TODO: Add a link to your mod repository here (optional)
 containsNsfwContent = false

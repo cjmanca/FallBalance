@@ -44,8 +44,9 @@ public partial class Plugin : BaseUnityPlugin
     [HarmonyPatch(typeof(CharacterMovement), "FallTime")]
     public class Patch_FallBalance
     {
+        
         [HarmonyPrefix]
-        public static float FallTime(CharacterMovement __instance)
+        public static bool FallTime(CharacterMovement __instance, ref float __result)
         {
             float num = Mathf.Min(__instance.character.data.sinceJump, __instance.character.data.sinceGrounded);
             num -= 0.5f;
@@ -53,7 +54,8 @@ public partial class Plugin : BaseUnityPlugin
             {
                 num -= __instance.character.data.lastBouncedTime + 2.5f - Time.time;
             }
-            return num;
+            __result = num;
+            return false;
         }
     }
 }
